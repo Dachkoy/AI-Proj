@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { RootStackParamList } from "../App";
-import { login } from "../services/api";
-import Screen from "../components/ui/Screen";
-import TextField from "../components/ui/TextField";
-import PrimaryButton from "../components/ui/PrimaryButton";
-import SectionHeader from "../components/ui/SectionHeader";
+import { RootStackParamList } from "../App.js";
+import { login } from "../services/api.js";
+import Screen from "../components/ui/Screen.js";
+import TextField from "../components/ui/TextField.js";
+import PrimaryButton from "../components/ui/PrimaryButton.js";
+import SectionHeader from "../components/ui/SectionHeader.js";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Login">;
 

@@ -2,11 +2,11 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { StatusBar } from "expo-status-bar";
-import { navigationTheme } from "./theme";
-import LoginScreen from "./screens/LoginScreen";
-import VinEntryScreen from "./screens/VinEntryScreen";
-import VehicleSummaryScreen from "./screens/VehicleSummaryScreen";
-import VehicleStateScreen from "./screens/VehicleStateScreen";
+import { navigationTheme } from "./theme.js";
+import LoginScreen from "./screens/LoginScreen.js";
+import VinEntryScreen from "./screens/VinEntryScreen.js";
+import VehicleSummaryScreen from "./screens/VehicleSummaryScreen.js";
+import VehicleStateScreen from "./screens/VehicleStateScreen.js";
 
 export type RootStackParamList = {
   Login: undefined;
