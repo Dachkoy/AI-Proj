@@ -1,7 +1,0 @@
-node_modules/
-.expo/
-.expo-shared/
-web-build/
-*.log
-npm-debug.log*
-yarn-error.log*
